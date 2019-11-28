@@ -35,7 +35,8 @@
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-  @import "../style/mixin.scss";
+  // 导入 混合器 格式，清除元素内容前后的空格
+  @import "../style/partial/clearfix.scss";
 
   .home-wrapper{
     @include clearfix;

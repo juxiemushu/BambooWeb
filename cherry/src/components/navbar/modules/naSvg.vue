@@ -37,6 +37,7 @@
     transform: rotate(90deg);
     transition: .38s;
     transform-origin: 50% 50%;
+    background-color: #fff;
   }
   .hamburger.is-active {
     transform: rotate(0deg);

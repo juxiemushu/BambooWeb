@@ -11,6 +11,7 @@
     "core-js": "^3.3.2",
     "css-loader": "^3.2.0",
     "element-ui": "^2.13.0",
+    "register-service-worker": "^1.6.2",
     "style-loader": "^1.0.0",
     "styles-loader": "^1.0.2",
     "stylus-loader": "^3.0.2",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-pwa": "^4.1.1",
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-eslint": "^10.0.3",

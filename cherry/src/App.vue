@@ -2,6 +2,7 @@
   <div id="app">
      <!--登入动画-->
     <transition name="rotate-fall">
+      <!-- router-view 是路由组件，可以实现同一个界面切换显示不同的组件，和route的index.js配合使用 -->
       <router-view class="app-router-view"></router-view>
     </transition>
   </div>
@@ -23,6 +24,7 @@
 </style>
 
 <script>
+  // vue 的过渡动画需要引入 css
   import 'vue-transition.css';
 
   export default {

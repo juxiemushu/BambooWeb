@@ -3,9 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+// 引入 Element UI
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
-import './style/index.scss' //global css
+
+// 引入全局的 css 样式
+import './style/index.scss' 
+import './registerServiceWorker'
 
 Vue.use(ElementUI);
 

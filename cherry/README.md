@@ -1,5 +1,10 @@
 # cherry
 
+## 资料
+```
+Scss 中文网: https://www.sass.hk/
+```
+
 ## Project setup
 ```
 npm install

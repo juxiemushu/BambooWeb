@@ -5,6 +5,7 @@ import Home from '../views/Home'
 import Sale from '../views/sale/index'
 import Stock from '../views/stock/index'
 import Ktree from '../components/ktree/index'
+import Generator from '../views/generate/generator'
 
 Vue.use(VueRouter);
 
@@ -34,16 +35,16 @@ export const mapMenu = [
     component: null
   },
   {
-    path: '/sale',
-    name: 'sale',
+    path: '/system/setup',
+    name: 'system',
     component: Home,
-    meta: { title: '销售管理', icon: '' },
+    meta: { title: '系统功能', icon: '' },
     children: [
       {
-        path: '/sale/offer',
-        name: 'offer',
-        component: Sale,
-        meta: { title: '销售报价单', icon: '' }
+        path: '/system/setup/generator',
+        name: 'generator',
+        component: Generator,
+        meta: { title: '代码生成', icon: '' }
       },
       {
         path: '/sale/indent',

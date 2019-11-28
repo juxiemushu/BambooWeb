@@ -25,6 +25,7 @@ export default {
 .navbar{
   height: 50px;
   line-height: 50px;
+  background-color: #545c64;
   .svg-container {
     line-height: 50px;
     height: 50px;
