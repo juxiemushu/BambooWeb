@@ -11,7 +11,7 @@ import "element-ui/lib/theme-chalk/index.css";
 import './style/index.scss' 
 import './registerServiceWorker'
 
-Vue.use(ElementUI);
+Vue.use(ElementUI, { size: 'small'});
 
 Vue.config.productionTip = false;
 
