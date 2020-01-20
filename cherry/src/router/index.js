@@ -5,7 +5,7 @@ import Home from '../views/Home'
 import Sale from '../views/sale/index'
 import Stock from '../views/stock/index'
 import Ktree from '../components/ktree/index'
-import Generator from '../views/generate/generator'
+import Generator from '../views/system/generator'
 
 Vue.use(VueRouter);
 
